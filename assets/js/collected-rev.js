@@ -37,62 +37,62 @@ Highcharts.chart('collected-rev', {
             name: 'Collected Revenue',
             data: [
                 {
-                    name: 'Trade, Industry, Tourism, Co-operative Development And Marketing',
+                    name: 'Kenya Revenue Authority (KRA)',
                     y: 3733,
                     drilldown: 'trade'
                 },
                 {
-                    name: 'Housing And Urban Development',
+                    name: 'Communication Authority of Kenya (CAK)',
                     y: 3118,
                     drilldown: 'housing'
                 },
                 {
-                    name: 'Lands And Physical Planning',
+                    name: ' Kenya Railways Corporation',
                     y: 2779,
                     drilldown: 'lands'
                 },
                 {
-                    name: 'Agriculture And Livestock',
+                    name: 'Kenya Ports Authority (KPA)',
                     y: 2223,
                     drilldown: 'agriculture'
                 },
                 {
-                    name: 'Roads, Public Works, Transport And Infrastructure',
+                    name: ' Kenya Power and Lighting Company (KPLC)',
                     y: 2191,
                     drilldown: 'roads'
                 },
                 {
-                    name: 'Blue Economy, Fisheries, Mining And Digital Economy',
+                    name: 'Kenya Airports Authority (KAA)	',
                     y: 2174,
                     drilldown: 'blue-economy'
                 },
                 {
-                    name: 'Water, Irrigation, Sanitation, Environment, Energy, Forestry And Climate Change',
+                    name: ' Kenya National Highways Authority (KeNHA)',
                     y: 2132,
                     drilldown: 'water'
                 },
                 {
-                    name: 'Governance And Administration',
+                    name: 'Kenya Airway Cargo',
                     y: 2089,
                     drilldown: 'governance'
                 },
                 {
-                    name: 'Finance And Economic Planning',
+                    name: 'Kenya Industrial Property Institute (KIPI)',
                     y: 2067,
                     drilldown: 'finance'
                 },
                 {
-                    name: 'Youth, Sports, Talent Development And Social Services',
+                    name: 'Kenya National Highways Authority (KeNHA)',
                     y: 1911,
                     drilldown: 'youth'
                 },
                 {
-                    name: 'Education, Human Capital Development And Vocational Training',
+                    name: 'Communication Authority of Kenya (CAK)',
                     y: 1645,
                     drilldown: 'education'
                 },
                 {
-                    name: 'Health And Medical Services',
+                    name: 'National Environment Management Authority (NEMA)',
                     y: 1638,
                     drilldown: 'health'
                 },
@@ -115,18 +115,18 @@ Highcharts.chart('collected-rev', {
             name: 'Revenue Target',
             type: 'column',
             data: [
-                ['Trade, Industry, Tourism, Co-operative Development And Marketing', 4000],
-                ['Housing And Urban Development', 3500],
-                ['Lands And Physical Planning', 3000],
-                ['Agriculture And Livestock', 2500],
-                ['Roads, Public Works, Transport And Infrastructure', 2400],
-                ['Blue Economy, Fisheries, Mining And Digital Economy', 2300],
-                ['Water, Irrigation, Sanitation, Environment, Energy, Forestry And Climate Change', 2200],
-                ['Governance And Administration', 2100],
-                ['Finance And Economic Planning', 2000],
-                ['Youth, Sports, Talent Development And Social Services', 1900],
-                ['Education, Human Capital Development And Vocational Training', 1800],
-                ['Health And Medical Services', 1700],
+                ['Kenya Revenue Authority (KRA)', 4000],
+                ['Communication Authority of Kenya (CAK)', 3500],
+                [' Kenya Railways Corporation', 3000],
+                ['Kenya Ports Authority (KPA)', 2500],
+                [' Kenya Power and Lighting Company (KPLC)', 2400],
+                ['Kenya Airports Authority (KAA)	', 2300],
+                [' Kenya National Highways Authority (KeNHA)', 2200],
+                ['Kenya Airway Cargo', 2100],
+                ['Kenya Industrial Property Institute (KIPI)', 2000],
+                ['Kenya National Highways Authority (KeNHA)', 1900],
+                ['Communication Authority of Kenya (CAK)', 1800],
+                ['National Environment Management Authority (NEMA)', 1700],
                 // Add more target data as needed
             ],
             dataLabels: {
@@ -145,7 +145,7 @@ Highcharts.chart('collected-rev', {
         series: [
             {
                 id: 'trade',
-                name: 'Trade, Industry, Tourism, Co-operative Development And Marketing',
+                name: 'Kenya Revenue Authority (KRA)',
                 data: [
                     {
                         name: 'Stream 1',
@@ -160,7 +160,7 @@ Highcharts.chart('collected-rev', {
             },
             {
                 id: 'housing',
-                name: 'Housing And Urban Development',
+                name: 'Communication Authority of Kenya (CAK)',
                 data: [
                     {
                         name: 'Stream 1',
@@ -175,7 +175,7 @@ Highcharts.chart('collected-rev', {
             },
             {
                 id: 'lands',
-                name: 'Lands And Physical Planning',
+                name: ' Kenya Railways Corporation',
                 data: [
                     {
                         name: 'Stream 1',
@@ -190,7 +190,7 @@ Highcharts.chart('collected-rev', {
             },
             {
                 id: 'agriculture',
-                name: 'Agriculture And Livestock',
+                name: 'Kenya Ports Authority (KPA)',
                 data: [
                     {
                         name: 'Stream 1',
@@ -205,7 +205,7 @@ Highcharts.chart('collected-rev', {
             },
             {
                 id: 'roads',
-                name: 'Roads, Public Works, Transport And Infrastructure',
+                name: ' Kenya Power and Lighting Company (KPLC)',
                 data: [
                     {
                         name: 'Daily Parking',
@@ -228,7 +228,7 @@ Highcharts.chart('collected-rev', {
             },
             {
                 id: 'blue-economy',
-                name: 'Blue Economy, Fisheries, Mining And Digital Economy',
+                name: 'Kenya Airports Authority (KAA)	',
                 data: [
                     {
                         name: 'Stream 1',
@@ -243,7 +243,7 @@ Highcharts.chart('collected-rev', {
             },
             {
                 id: 'water',
-                name: 'Water, Irrigation, Sanitation, Environment, Energy, Forestry And Climate Change',
+                name: ' Kenya National Highways Authority (KeNHA)',
                 data: [
                     {
                         name: 'Stream 1',
@@ -258,7 +258,7 @@ Highcharts.chart('collected-rev', {
             },
             {
                 id: 'governance',
-                name: 'Governance And Administration',
+                name: 'Kenya Airway Cargo',
                 data: [
                     {
                         name: 'Stream 1',
@@ -273,7 +273,7 @@ Highcharts.chart('collected-rev', {
             },
             {
                 id: 'finance',
-                name: 'Finance And Economic Planning',
+                name: 'Kenya Industrial Property Institute (KIPI)',
                 data: [
                     {
                         name: 'Stream 1',
@@ -288,7 +288,7 @@ Highcharts.chart('collected-rev', {
             },
             {
                 id: 'youth',
-                name: 'Youth, Sports, Talent Development And Social Services',
+                name: 'Kenya National Highways Authority (KeNHA)',
                 data: [
                     {
                         name: 'Stream 1',
@@ -303,7 +303,7 @@ Highcharts.chart('collected-rev', {
             },
             {
                 id: 'education',
-                name: 'Education, Human Capital Development And Vocational Training',
+                name: 'Communication Authority of Kenya (CAK)',
                 data: [
                     {
                         name: 'Stream 1',
@@ -318,7 +318,7 @@ Highcharts.chart('collected-rev', {
             },
             {
                 id: 'health',
-                name: 'Health And Medical Services',
+                name: 'National Environment Management Authority (NEMA)',
                 data: [
                     {
                         name: 'Stream 1',
